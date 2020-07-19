@@ -14,10 +14,12 @@ body {
 .MenuElements {
     display: inline-block;
 
-    padding: 15px 20px;
-
     font-size:25px;
     color: white;
+
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
 }
 
 .MenuElements + .MenuElements {
@@ -29,6 +31,9 @@ body {
 }
 
 a {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 100%;
     color: white;
     text-decoration: none;
 }
