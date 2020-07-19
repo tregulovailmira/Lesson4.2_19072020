@@ -1,0 +1,42 @@
+body {
+    min-height: 200vh;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+
+    background-color: green;
+
+    width: 100%;
+}
+
+.MenuElements {
+    display: inline-block;
+
+    padding: 15px 20px;
+
+    font-size:25px;
+    color: white;
+}
+
+.MenuElements + .MenuElements {
+    border-left: 1px solid white;
+}
+
+.MenuElements:hover {
+    background-color: gray;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.AboutHTML{
+    margin-top: 70px;
+}
+
+p {
+    text-align: justify;
+}
